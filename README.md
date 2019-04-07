@@ -6,7 +6,7 @@ This algorithm measures relations within sentences (measuring relevant token sim
 ```bash
 export MODELS="<postagging trained models folder path>"
 
-go get github.com/lucasmenendez/gobstact
+go get github.com/daanishmazhar/GoLangAbstract
 ```
 
 ### Run the program!
@@ -16,7 +16,7 @@ package main
 import (
     "fmt"
     "io/ioutil"
-    "github.com/lucasmenendez/gobstract"
+    "github.com/daanishmazhar/GoLangAbstract"
 )
 
 func main() {
